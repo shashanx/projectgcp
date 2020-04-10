@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fe6a4919-6e84-405d-927d-f12d9f400fa7": {
+        "id": "fe6a4919-6e84-405d-927d-f12d9f400fa7",
+        "parent": null,
+        "name": "projectgcp.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "projectgcp.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 2
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "projectgcp"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "89a2d3a2-5dcc-4b81-b242-02527bb2e75b": {
+        "id": "89a2d3a2-5dcc-4b81-b242-02527bb2e75b",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "5a2e55d4-ac20-4d78-8c41-735929539c98": {
+        "id": "5a2e55d4-ac20-4d78-8c41-735929539c98",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "fe6a4919-6e84-405d-927d-f12d9f400fa7"
+    ],
+    "currentFileId": "fe6a4919-6e84-405d-927d-f12d9f400fa7",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "projectgcp",
+    "projectDescription": "sample test project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-central1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1586542090766
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "projectgcp",
+      "url": "https://github.com/shashanx/projectgcp"
+    }
+  }
+}
